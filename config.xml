@@ -81,4 +81,10 @@
     <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
     <plugin name="cordova-plugin-ionic-webview" spec="^1.1.16" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
+    <<universal-links>
+    <host name="https://am2mw.app.goo.gl/XktS" scheme="http"/>
+    <host name="chat-d537f.firebaseapp.com" scheme="http">
+         <path url="/__/auth/callback"/>
+    </host>     
+    </universal-links>>
 </widget>
