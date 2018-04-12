@@ -4,6 +4,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
+
 import firebase from 'firebase';
 
 const configa = {
@@ -14,6 +15,7 @@ const configa = {
   storageBucket: "chat-d537f.appspot.com",
   messagingSenderId: "645315303158"
 };
+
 @Component({
   templateUrl: 'app.html'
 })
@@ -27,6 +29,7 @@ export class MyApp {
       statusBar.styleDefault();
       splashScreen.hide();
     });
+
     firebase.initializeApp(configa);
   }
 
